@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Cellularhacker/izuna.moe/issues"
   },
-  "homepage": "https://github.com/Cellularhacker/izuna.moe#readme"
+  "homepage": "https://github.com/Cellularhacker/izuna.moe#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
