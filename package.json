@@ -1,0 +1,24 @@
+{
+  "name": "izuna.moe",
+  "version": "1.0.0",
+  "description": "Web site of izuna tan!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cellularhacker/izuna.moe.git"
+  },
+  "keywords": [
+    "izuna",
+    "node.js",
+    "express"
+  ],
+  "author": "Cellularhacker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cellularhacker/izuna.moe/issues"
+  },
+  "homepage": "https://github.com/Cellularhacker/izuna.moe#readme"
+}
