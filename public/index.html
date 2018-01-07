@@ -1,4 +1,4 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -9,13 +9,51 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <figure>
-        <img src="http://tama-yura.jp/animetory/img/entries/6992369355391c6c23e4bd5.90997752/53c360be7cf2a/pc/4.jpg">
-        <figcaption>
-            <font color="#FFB6C1">
-                <b>Izuna Tan MOE~</b>
-            </font>
-        </figcaption>
-    </figure>
+    <div id="izunatan_moe">
+        <figure>
+            <img src="http://tama-yura.jp/animetory/img/entries/6992369355391c6c23e4bd5.90997752/53c360be7cf2a/pc/4.jpg">
+            <figcaption>
+                <font color="#FFB6C1">
+                    <b>Izuna Tan MOE~</b>
+                </font>
+            </figcaption>
+        </figure>
+    </div>
+    <hr>
+    <div id="donate">
+        <h3 class="donte_title">&lt;Donation&gt;</h3>
+        <ul>
+            <li>
+                BTC:&nbsp;
+                <input type="hidden" value="3Bh8xSfKtQfw5VRPtUh9NsaNQQyCz5MFCM" id="BTC">
+                <span class="donate_wallet">3Bh8xSfKtQfw5VRPtUh9NsaNQQyCz5MFCM</span>
+                <button onclick="BTC_Adr_Copy()">Copy</button>
+            </li>
+            <li>
+                QTUM:&nbsp;
+                <input type="hidden" value="QPnrMgBnrFnXq3wSeGSy2SJy8N69HhM92k" id="QTUM">
+                <span class="donate_wallet">QPnrMgBnrFnXq3wSeGSy2SJy8N69HhM92k</span>
+                <button onclick="QTUM_Adr_Copy()">Copy</button>
+            </li>
+            <li>
+                ETH:&nbsp;
+                <input type="hidden" value="0x0a1ea94938103ca26653cadab67e3374caa5e842" id="ETH">
+                <span class="donate_wallet">0x0a1ea94938103ca26653cadab67e3374caa5e842</span>
+                <button onclick="ETH_Adr_Copy()">Copy</button>
+            </li>
+            <li>
+                ETC:&nbsp;
+                <input type="hidden" value="0x005bed61148cafac2679f0b5e6851086fcf08881" id="ETC">
+                <span class="donate_wallet">0x005bed61148cafac2679f0b5e6851086fcf08881</span>
+                <button onclick="ETC_Adr_Copy()">Copy</button>
+            </li>
+            <li>
+                POWR:&nbsp;
+                <input type="hidden" value="0xea2ac284bfc444531cd0876c805f5e9cf863e7b3" id="POWR">
+                <span class="donate_wallet">0xea2ac284bfc444531cd0876c805f5e9cf863e7b3</span>
+                <button onclick="POWR_Adr_Copy()">Copy</button>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
